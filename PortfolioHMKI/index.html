@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio site</title>
+  <meta name="description" content="テキスト">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="splash">
+    <div id="splash_text"></div>
+    <!--/splash-->
+  </div>
+
+  <div class="header">
+    <div class="header-logo">
+      <h2>Portfolio</h2>
+    </div>
+    <nav>
+      <ul>
+        <li class="header-list"><a href="#about">About</a></li>
+        <li class="header-list"><a href="#diary">Diary</a></li>
+        <li class="header-list"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>  
+  
+  <div class="main">
+  </div>
+  
+    <div class="contents">
+      <h2 class="section-title" id="about">About</h2>
+      <div class="profile">
+        <div class="profile-pic">
+          <img src="img/photo.jpg" class="">
+        </div>
+        <div class="profile-text">
+
+          <table class="profile-table">
+            <tr>
+              <th class="">名前</th>
+              <th class="">浜口海音</th>
+            </tr>
+            <tr>
+              <th class="">年齢</th>
+              <th class="">22歳</th>
+            </tr>
+            <tr>
+              <th class="">性別</th>
+              <th class="">男</th>
+            </tr>
+            <tr>
+              <th class="">趣味</th>
+              <th class="">ゲーム</th>
+            </tr>
+            <tr>
+              <th class="">借金</th>
+              <th class="">11万</th>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="contents">
+      <h2 class="section-title element" id="skills">Skills</h2>
+      <div class="contents skills">
+        <div class="skill-logo">
+          <img src="img/html-5.svg" class="element">
+          <h3 class="element">html</h3>
+          <p class="element">★★★★☆</p>
+        </div>
+        <div class="skill-logo">
+          <img src="img/css-3.svg" class="element">
+          <h3 class="element">css</h3>
+          <p class="element">★★★★☆</p>
+        </div>
+        <div class="skill-logo">
+          <img src="img/javascript.svg" class="element">
+          <h3 class="element">javascript</h3>
+          <p class="element">★★★☆☆</p>
+        </div>
+        <div class="skill-logo">
+          <img src="img/php.svg" class="element">
+          <h3 class="element">php</h3>
+          <p class="element">★★★★☆</p>
+        </div>
+        <div class="skill-logo">
+          <img src="img/mysql.svg" class="element">
+          <h3 class="element">mysql</h3>
+          <p class="element">★★★☆☆</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contents">
+      <h2 class="section-title element" id="likes">Likes</h2>
+      <div class="contents skills">
+        <div class="skill-logo">
+          <img src="img/bootstrap.svg" class="element">
+          <h3 class="element">bootstrap</h3>
+        </div>
+        <div class="skill-logo">
+          <img src="img/jquery.svg" class="element">
+          <h3 class="element">jquery</h3>
+        </div>
+        <div class="skill-logo">
+          <img src="img/vue.svg" class="element">
+          <h3 class="element">vue.js</h3>
+        </div>
+        <div class="skill-logo">
+          <img src="img/laravel.svg" class="element">
+          <h3 class="element">laravel</h3>
+        </div>
+        <div class="skill-logo">
+          <img src="img/visual-studio-code.svg" class="element">
+          <h3 class="element">VScode</h3>
+        </div>
+      </div>  
+    </div>
+  
+    <div class="contents">
+      <h2 class="section-title element" id="diary">Diary</h2>
+      <table class="diary-table">
+        <tr>
+          <th class="element">2022.xx.xx</th>
+          <th class="element">随時更新予定</th>
+        </tr>
+        <tr>
+          <th class="element">2022.08.30</th>
+          <th class="element">長瀬退去完了。</th>
+        </tr>
+        <tr>
+          <th class="element">2022.08.19</th>
+          <th class="element">ポートフォリオサイト作成開始。</th>
+        </tr>
+        <tr>
+          <th class="element">2022.xx.xx</th>
+          <th class="element">随時更新予定</th>
+        </tr>
+        <tr>
+          <th class="element">2022.xx.xx</th>
+          <th class="element">随時更新予定</th>
+        </tr>
+        <tr>
+          <th class="element">2022.xx.xx</th>
+          <th class="element">随時更新予定</th>
+        </tr>
+        <tr>
+          <th class="element">2022.xx.xx</th>
+          <th class="element">随時更新予定</th>
+        </tr>
+      </table>
+    </div>
+
+
+  <div class="contents element">
+    <h2 class="section-title" id="contact">Contact</h2>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <div class="item">
+        <input type="hidden" name="accessKey" value="4fa4aaea-acad-41b6-ba50-19a0c5169b1d"> <!-- Required -->
+        <h2 class="leftdec">お名前(必須)</h2>
+        <input type="text" required name="name" placeholder="お名前">
+      </div>
+      <div class="item">
+        <h2 class="leftdec">電話番号(任意)</h2>
+        <input type="text" name="phone" placeholder="電話番号">
+      </div>
+      <div class="item">
+        <h2 class="leftdec">メールアドレス(必須)</h2>
+        <input type="text" required name="email" placeholder="メールアドレス">
+      </div>
+      <div class="item">
+        <h2 class="leftdec">お問い合わせ(必須)</textarea></h2>
+        <textarea name="message" required class="message" placeholder="お問い合わせ"></textarea>
+      </div>
+      <div class="btn">
+        <input type="submit" value="送信" class="submit">
+      </div>
+    </form>
+  </div>
+
+    <div class="footer element-f">
+      <p>&copy; 2022 Kaito Hamaguchi</p>
+      <!-- <p><a href="https://twitter.com"><i class="fa-brands fa-square-twitter fa-3x" style="color: #00ACEE;"></i></a></p> -->
+    </div>
+
+</body>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $(window).scroll(function () {
+        const windowHeight = $(window).height();
+        const scroll = $(window).scrollTop();
+
+        $('.element').each(function () {
+          const targetPosition = $(this).offset().top;
+          if (scroll > targetPosition - windowHeight + 184) {
+            $(this).addClass("is-fadein");
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    $(function () {
+      $(window).scroll(function () {
+        const windowHeight = $(window).height();
+        const scroll = $(window).scrollTop();
+
+        $('.element-f').each(function () {
+          const targetPosition = $(this).offset().top;
+          if (scroll > targetPosition - windowHeight + 80) {
+            $(this).addClass("is-fadein");
+          }
+        });
+      });
+    });
+  </script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+
+<script>
+  //テキストのカウントアップ+バーの設定
+var bar = new ProgressBar.Line(splash_text, {//id名を指定
+	easing: 'easeInOut',//アニメーション効果linear、easeIn、easeOut、easeInOutが指定可能
+	duration: 1800,//時間指定(1000＝1秒)
+	strokeWidth: 2.2,//進捗ゲージの太さ
+	color: 'rgba(138, 43, 226, 0.8)',//進捗ゲージのカラー
+	trailWidth: 2.2,//ゲージベースの線の太さ
+	trailColor: '#000',//ゲージベースの線のカラー
+	text: {//テキストの形状を直接指定				
+		style: {//天地中央に配置
+			position: 'absolute',
+			left: '50%',
+			top: '50%',
+			padding: '0',
+			margin: '-30px 0 0 0',//バーより上に配置
+			transform:'translate(-50%,-50%)',
+			'font-size':'2rem',
+			color: 'white',
+		},
+		autoStyleContainer: false //自動付与のスタイルを切る
+	},
+	step: function(state, bar) {
+		bar.setText(Math.round(bar.value() * 100) + ' %'); //テキストの数値
+	}
+});
+
+//アニメーションスタート
+bar.animate(1.0, function () {//バーを描画する割合を指定します 1.0 なら100%まで描画します
+	$("#splash").delay(1200).fadeOut(1200);//アニメーションが終わったら#splashエリアをフェードアウト
+});  
+</script>
+</body>
+</html>
