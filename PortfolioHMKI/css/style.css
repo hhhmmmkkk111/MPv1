@@ -12,6 +12,7 @@ a {
 body {
   background-color: rgba(0, 0, 0, 0.04);
   letter-spacing: 2px;
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
 }
 
 /*header*/
@@ -240,6 +241,7 @@ textarea {
     font-size: 20px;
   }
   .section-title {
+    width: 72px;
     font-size: 20px;
   }
   .profile img {
@@ -296,6 +298,7 @@ textarea {
     font-size: 18px;
   }
   .section-title {
+    width: 72px;
     font-size: 16px;
   }
   .profile img {
@@ -315,7 +318,7 @@ textarea {
   }
   .skill-logo p {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .profile-table th {
     padding: 16px 8px;
@@ -326,7 +329,7 @@ textarea {
     padding: 0 4px;
   }
   .item {
-    font-size: 8.8px;
+    font-size: 10px;
     padding: 0 4px;
   }
   input, textarea {
@@ -337,5 +340,6 @@ textarea {
   }
   .btn {
     padding: 48px 0;
+    color: #000;
   }
 }
