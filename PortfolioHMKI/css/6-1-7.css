@@ -21,7 +21,7 @@
 }
 
 .slider .slick-slide {
-transform: scale(0.4);/*左右の画像のサイズを80%に*/
+transform: scale(0.2);/*左右の画像のサイズを80%に*/
 transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
 opacity: 0.5;/*透過50%*/
 }
@@ -61,19 +61,20 @@ opacity: 1;/*透過なし*/
 
 .slick-dots {
   text-align:center;
-margin:20px 0 0 0;
+  margin:20px 0 0 0;
 }
 
 .slick-dots li {
   display:inline-block;
-margin:0 5px;
+  margin:0 5px;
 }
 
 .slick-dots button {
+  margin-top: 12px;
   color: transparent;
   outline: none;
-  width:8px;/*ドットボタンのサイズ*/
-  height:8px;/*ドットボタンのサイズ*/
+  width:16px;/*ドットボタンのサイズ*/
+  height:16px;/*ドットボタンのサイズ*/
   display:block;
   border-radius:50%;
   background:#ccc;/*ドットボタンの色*/
@@ -85,8 +86,8 @@ margin:0 5px;
 
 @media all and (max-width: 480px){
   .slider img {
-    width: 240px;
-    height: 240px;
+    width: 180px;
+    height: 180px;
   }
 
   .slider h3 {
