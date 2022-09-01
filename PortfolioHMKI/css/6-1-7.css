@@ -21,7 +21,7 @@
 }
 
 .slider .slick-slide {
-transform: scale(0.2);/*左右の画像のサイズを80%に*/
+transform: scale(0.8);/*左右の画像のサイズを80%に*/
 transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
 opacity: 0.5;/*透過50%*/
 }
@@ -73,8 +73,8 @@ opacity: 1;/*透過なし*/
   margin-top: 12px;
   color: transparent;
   outline: none;
-  width:16px;/*ドットボタンのサイズ*/
-  height:16px;/*ドットボタンのサイズ*/
+  width:8px;/*ドットボタンのサイズ*/
+  height:8px;/*ドットボタンのサイズ*/
   display:block;
   border-radius:50%;
   background:#ccc;/*ドットボタンの色*/
@@ -86,17 +86,17 @@ opacity: 1;/*透過なし*/
 
 @media all and (max-width: 480px){
   .slider img {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
   }
 
   .slider h3 {
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .slider p {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
   }
 }
